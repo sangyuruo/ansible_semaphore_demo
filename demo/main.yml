@@ -1,0 +1,6 @@
+- name: demo
+  hosts: rancher-master
+  remote_user: sysadmin
+
+  roles:
+    - disk
